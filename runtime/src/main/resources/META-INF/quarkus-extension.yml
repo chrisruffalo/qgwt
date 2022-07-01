@@ -1,0 +1,6 @@
+name: "QGWT - GWT for Quarkus"
+metadata:
+  keywords:
+  categories:
+    - "ui"
+  status: "experimental"

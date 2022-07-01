@@ -1,0 +1,8 @@
+# ide projects
+**/*.iml
+**/.idea
+
+# maven outputs
+**/target
+**/gwt-unitCache
+**/.flattened-pom.xml
