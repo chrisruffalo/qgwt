@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<module rename-to = 'Ui'>
+<module rename-to = 'ui'>
     <!-- Inherit the core Web Toolkit stuff.                        -->
-    <inherits name = 'com.google.gwt.core.Core'/>
     <inherits name = 'com.google.gwt.user.User'/>
 
     <!-- Inherit the default GWT style sheet.  You can change       -->

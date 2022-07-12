@@ -7,6 +7,6 @@ public class Main implements EntryPoint {
 
     @Override
     public void onModuleLoad() {
-        Window.alert("YOU DID IT!");
+        Window.alert("ALERT ALERT!");
     }
 }
