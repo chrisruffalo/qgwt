@@ -42,36 +42,7 @@
     </dependencies>
 
     <build>
-        <resources>
-            <!-- java source files for gwt -->
-            <resource>
-                <directory>src/main/java</directory>
-                <targetPath>${project.build.outputDirectory}</targetPath>
-                <includes>
-                    <include>**/*.java</include>
-                </includes>
-                <filtering>false</filtering>
-            </resource>
-            <!-- default resources -->
-            <resource>
-                <directory>src/main/resources</directory>
-                <targetPath>${project.build.outputDirectory}</targetPath>
-                <includes>
-                    <include>**/*</include>
-                </includes>
-                <filtering>false</filtering>
-            </resource>
-        </resources>
         <plugins>
-            <plugin>
-                <groupId>net.ltgt.gwt.maven</groupId>
-                <artifactId>gwt-maven-plugin</artifactId>
-                <version>1.0.1</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <moduleName>io.github.chrisruffalo.qgwt.example.Ui</moduleName>
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>io.quarkus</groupId>
                 <artifactId>quarkus-maven-plugin</artifactId>
